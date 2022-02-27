@@ -940,6 +940,9 @@ Resources:
           Value: llindsaypnw
         - Key: git_org
           Value: bridgecrewio
+      PublicAccessBlockConfiguration:
+        BlockPublicPolicy: True
+        RestrictPublicBuckets: True
 
   ### TODO - Custom Upload of insecure document
   FinancialsBucket:
