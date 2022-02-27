@@ -941,8 +941,7 @@ Resources:
         - Key: git_org
           Value: bridgecrewio
       PublicAccessBlockConfiguration:
-        BlockPublicPolicy: True
-        RestrictPublicBuckets: True
+        BlockPublicAcls: True
 
   ### TODO - Custom Upload of insecure document
   FinancialsBucket:
